@@ -1,12 +1,13 @@
 const assert = require('assert');
 
 function hasUniqueCharacters(s) {
+  const sorted = s.split('').sort();
   let set = new Set();
 
   // if you know all the possibles characters, you can optimize with an if
-  // if (s.length > chars.size) return false;
+  // if (sorted.length > chars.size) return false;
 
-  for (c of s.sort()) {
+  for (c of sorted) {
     if (set.has(c)) {
       return false;
     }
