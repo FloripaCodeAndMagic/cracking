@@ -1,0 +1,24 @@
+{
+  "name": "cracking",
+  "version": "1.0.0",
+  "description": "Cracking The Code Interview 5th Edition Solutions",
+  "main": "1-1.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floripacodeandmagic/cracking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floripacodeandmagic/cracking/issues"
+  },
+  "homepage": "https://github.com/floripacodeandmagic/cracking#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
