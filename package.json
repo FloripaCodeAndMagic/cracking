@@ -4,8 +4,8 @@
   "description": "Cracking The Code Interview 5th Edition Solutions",
   "main": "1-1.js",
   "scripts": {
-    "test": "mocha",
-    "test:watch": "mocha -w"
+    "test": "mocha test/**/*.js",
+    "test:watch": "mocha -w test/**/*.js"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const oneDotEight = require('../1-8');
+const oneDotEight = require('../../src/chapter1/1-8');
 
 describe('1-8', function() {
     it('should work, true', function() {

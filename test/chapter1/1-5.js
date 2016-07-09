@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const oneDotFive = require('../1-5');
+const oneDotFive = require('../../src/chapter1/1-5');
 
 describe('1-5', function() {
     it('should compress big things', function() {
